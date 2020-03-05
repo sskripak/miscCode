@@ -11,7 +11,7 @@ https://github.com/tigoe/Wifi101_examples/blob/master/SensorPost/SensorPost.ino
 
 //WIFI VARIABLES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 int status = WL_IDLE_STATUS;
-char serverIP[] = "tigoe.io";
+char serverIP[] = PLACEHOLDER;
 
 WiFiSSLClient wifi;
 HttpClient https = HttpClient(wifi, serverIP, 443);
